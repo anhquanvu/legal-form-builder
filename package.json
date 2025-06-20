@@ -1,0 +1,60 @@
+{
+  "name": "legal-form-builder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Trình tạo biểu mẫu pháp lý với giao diện kéo thả",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@dnd-kit/modifiers": "^9.0.0",
+
+    "@hookform/resolvers": "^5.1.1",
+    "react-hook-form": "^7.58.1",
+
+    "react-datepicker": "^8.4.0",
+    "react-select": "^5.10.1",
+    "react-signature-canvas": "^1.0.6",
+
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "docx": "^9.5.1",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.518.0",
+    "uuid": "^11.1.0",
+    "yup": "^1.6.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+
+    "eslint": "^9.25.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+
+    "tailwindcss": "^3.4.3",
+    "@tailwindcss/forms": "^0.5.7",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21",
+
+    "vitest": "^1.0.0",
+    "vite": "^6.3.5"
+  }
+}
